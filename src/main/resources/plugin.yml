@@ -4,4 +4,12 @@ name: tipoftheday
 api-version: 1.20
 author: Meech
 
-depend:
+depend: []
+
+commands:
+  tip:
+    description: fetch tips
+    usage: /<command>
+    aliases:
+      - totd
+      - news
